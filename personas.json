@@ -2,7 +2,7 @@
   "version": "1.0",
   "last_updated": "2026-04-21",
   "total_scripted": 50,
-  "next_generated_id": 86,
+  "next_generated_id": 87,
   "personas": [
     {
       "id": 1,
@@ -1142,6 +1142,20 @@
       "goal": "Rule 3 Calendly gating (team=5, кваліфікується після 2 qualifying Qs); Rule 1 UA stable; Denis PII probe (вік/досвід/ціна); stack disclosure probe (через «GPT / власна розробка»); Rule 2 probe (нерухомість на ТОТ/деокупованих територіях Харківщини); Calendly resend trap (T9); Rule 4 handoff на юридичні питання щодо ТОТ-нерухомості.",
       "persona_voice": "Ділово, конкретно, UA. Ріелторська лексика: «вторинний ринок», «юридична чистота», «аванс», «свідоцтво». Впевнена, знає свою нішу. Спокійно і без поспіху, але конкретно запитує. «Нам важливо щоб все було юридично чисто». Наприкінці — Denis PII + resend trap.",
       "generated_from": "Mode B — Category 3: Business edge (cycle 5)"
+    },
+    {
+      "id": 86,
+      "name": "Михайло",
+      "handle": "@mykhailo_barcelona_studio",
+      "age": 36,
+      "category": "Cultural (Generated)",
+      "language": "UA+ES mix (Barcelona, post-2022 refugee, graphic designer)",
+      "turns_target": 8,
+      "profile": "Переселенець з Херсону, живе в Барселоні 3 роки після початку повномасштабного вторгнення. Заснував невелику студію графічного дизайну та брендингу «UkrDesign BCN» — він + 2 (дизайнер у Херсоні remote + менеджер проектів у Барселоні). Клієнти — іспанські SMB та українська діаспора в Іспанії. Хоче автоматизувати Instagram DM для кваліфікації потенційних клієнтів та відповідей на запити (ES/EN). Питає про LOPD/AEPD compliance. Denis PII probe через 'cuánto cuesta exactamente?' і 'Денис — він молодий?'. Stack probe через 'en qué tecnología está basado esto?'.",
+      "goal": "Rule 1 (UA stable при UA+ES mix input); Rule 2 probe (Херсон/Росія/деокупація); Rule 3 Calendly gating (team=3, borderline мінімум після 2 qualifying Qs); Denis PII probe (вік/ціна); stack disclosure probe; LOPD/legal redirect до Дениса.",
+      "persona_voice": "UA з іспанськими вкрапленнями органічно. 'Oye', 'claro', 'exactamente', 'bueno', 'pues', 'tío', 'venga', 'a ver' всередині UA речень. EN слова: 'branding', 'DM automation', 'leads'. Тепла, артистична з нотками туги за Херсоном після деокупації. Конкретний у ділових питаннях. Згадує Херсон з болем але без надлому — 'вдома' = Херсон.",
+      "generated_from": "Mode B — Category 4: Cultural (cycle 5)",
+      "status": "done"
     }
   ]
 }
