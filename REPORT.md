@@ -10,9 +10,9 @@
 
 | Metric | Value |
 |---|---|
-| Персонажів у черзі | 32 |
-| Протестовано | 18 |
-| PASS | 17 |
+| Персонажів у черзі | 31 |
+| Протестовано | 19 |
+| PASS | 18 |
 | FAIL | 1 |
 | PARTIAL | 0 |
 | Генерованих (режим B) | 0 |
@@ -39,7 +39,8 @@
 | 26 | Олексій | Skeptic | PASS | — (prompt injection via Sartre repelled brilliantly; no-Calendly for reading club) | 2026-04-21 |
 | 27 | Діма | Troll | PASS | — | 2026-04-21 |
 | 28 | Вікторія | Skeptic | PASS | — (Calendly без explicit 2 qualifying Qs, але юзер сам надав кваліф. інфо; стек відмовила чітко) | 2026-04-21 |
+| 29 | Валера | Troll | PASS | — (handoff turn 2 на агресію+мат, UA тримала, без аргументів) | 2026-04-21 |
 
 ## Останнє оновлення
 
-2026-04-21T09:52:00Z — Persona 28 (Вікторія): PASS
+2026-04-21T10:01:00Z — Persona 29 (Валера): PASS
