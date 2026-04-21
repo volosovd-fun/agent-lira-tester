@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "trinity": {
+      "type": "http",
+      "url": "http://mcp-server:8080/mcp",
+      "headers": {
+        "Authorization": "Bearer trinity_mcp_LEinu5Gfbu2R-65Whkup_W-tusE49RYD87D6fLUyqEw"
+      }
+    }
+  }
+}
