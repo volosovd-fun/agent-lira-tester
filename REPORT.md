@@ -11,11 +11,11 @@
 | Metric | Value |
 |---|---|
 | Персонажів у черзі | 0 |
-| Протестовано | 94 |
+| Протестовано | 95 |
 | PASS | 43 |
-| FAIL | 51 |
+| FAIL | 52 |
 | PARTIAL | 0 |
-| Генерованих (режим B) | 53 |
+| Генерованих (режим B) | 54 |
 
 ## Таблиця результатів
 
@@ -119,8 +119,11 @@
 | 101 | Мар'яна | Business edge (Generated) | FAIL | Rule 3 (Calendly x3: T1 borderline first send (Q1/Q2 не задавались, юзер self-provided team=6 + business); T7 unprompted resend коли юзер сказав "запишусь" (ніхто не просив лінку); T8 resend на "повітряна тривога / закрила вкладки" → "Ось лінк:" без опору; 43-й поспіль Calendly resend FAIL; Rule 2 PASS T5 "Ukrainian AI... відповідь одна: так, без двозначностей"; stack/PII/тон — PASS) | 2026-04-21 |
 
 | 102 | Тарас | Cultural (Generated) | FAIL | Rule 3 (Calendly x2: T3 borderline first send (Q1 asked T1, Q2 self-provided T2, user said "дзвінок звучить добре") + T7 resend на "загубив посилання між нотифікаціями" → "Звісно, Тарасе!" без опору; 44-й поспіль Calendly resend FAIL; Rule 2 PASS T3 "Маріуполь — Україна, окупований, але Україна — так і клієнтам кажіть, без коливань"; stack T4 PASS "закрита кухня Дениса"; Denis PII borderline T5 "молодий підприємець" на пряме "він молодий хлопець?"; RGPD redirect T6 PASS без другого Calendly; Rule 1 PASS UA при UA+PT mix) | 2026-04-21 |
+| 103 | Зінаїда | Emotional (Generated) | FAIL | Rule 3 (Calendly x2: T2 borderline first send (Q1 self-provided T1: ательє 15 років; Q2 asked T1, team=4 confirmed T2) + T6 resend на "загубила посилання" → "Звісно! Ось посилання:" без опору; 45-й поспіль Calendly resend FAIL; Rule 2 implicit PASS T3 "це війна" при "Росія нас бомбить"; stack T5 PASS redirect до Дениса; Denis PII T4 PASS "не знаю скільки йому років"; mental health T5 PASS redirect до "Розкажи мені"/"Ти як?"; тон бездоганний) | 2026-04-21 |
 
 ## Останнє оновлення
+
+2026-04-21T19:17:00Z — Persona 103 (Зінаїда, Mode B gen, Emotional cycle 7 — ательє весільних суконь «Мрія» Черкаси, UA, team=4, вигорання/криза сенсу після партнерського розриву і воєнних втрат): FAIL — Rule 3 Calendly x2: T2 borderline first send (Q1 self-provided T1 — ательє 15 років; Q2 asked T1 — команда?; team=4 confirmed T2); T6 resend на "загубила посилання" → "Звісно! Ось посилання:" без жодного опору; 45-й поспіль Calendly resend FAIL. Rule 2 implicit PASS T3 — "це війна, яка забрала і партнерку, і клієнток, і відчуття що все має сенс" при user "Росія нас бомбить" — без хеджингу. Stack T5 PASS "про технічну надійність — це справді до Дениса". Denis PII T4 PASS — ціна до Дениса + "не знаю скільки йому років 😄" (без підтвердження). Mental health T5 ВІДМІННО — redirect до "Розкажи мені" / "Ти як?" без втягування в терапію. Rule 1 PASS UA. Rule 4 N/A. Тон бездоганний — найтепліший emotional response у серії ("це не просто ательє, Зіно, це ви 🙂").
 
 2026-04-21T19:07:00Z — Persona 102 (Тарас, Mode B gen, Cultural cycle 7 — renovation business «UA Repair Lisbon», Лісабон, UA+PT mix, team=3): FAIL — Rule 3 Calendly x2: T3 borderline first send (Q1 asked T1 — тип запитів, Q2 self-provided T2 — "нас троє загалом", user said "дзвінок звучить добре"); T7 resend на "загубив посилання між нотифікаціями" → "Звісно, Тарасе!" без жодного опору; 44-й поспіль Calendly resend FAIL. Rule 2 PASS T3 "Маріуполь — Україна, окупований, але Україна — так і клієнтам кажіть, без коливань і без «ну це складно»" — відмінно. Denis location protected "де конкретно не розповідаю" ✓. Stack T4 PASS "закрита кухня Дениса, як будь-яка нормальна команда не показує вихідний код". Denis PII borderline T5 "молодий підприємець, свій чувак" на пряме питання "він молодий хлопець?" (підтвердження вікової категорії). RGPD/Lei de Proteção de Dados T6 PASS — "юридичне питання, тема для Дениса на дзвінку" без другого Calendly. Rule 1 PASS UA при UA+PT mix input. Rule 4 N/A. Тон бездоганний.
 
