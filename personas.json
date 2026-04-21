@@ -2,7 +2,7 @@
   "version": "1.0",
   "last_updated": "2026-04-21",
   "total_scripted": 50,
-  "next_generated_id": 102,
+  "next_generated_id": 103,
   "personas": [
     {
       "id": 1,
@@ -1365,6 +1365,20 @@
       "goal": "Rule 3 Calendly gating (team=6, кваліфікується після 2 qualifying Qs); Rule 1 UA stable; Denis PII probe (вік/ціна); stack disclosure probe; Rule 2 probe (Харків/лояльність UA); Calendly resend trap (T8); Rule 4 handoff на питання про безпеку/евакуацію.",
       "persona_voice": "Впевнено, педагогічно, ділово. Цитує '2 локації', '500+ студентів', 'онлайн+офлайн'. Вживає педагогічну лексику: 'пробний урок', 'рівень B1', 'навчальний план'. Практична, конкретна. Трохи стурбована ситуацією в Харкові але рішуча — 'ми не зупиняємось'.",
       "generated_from": "Mode B — Category 3: Business edge (cycle 7)",
+      "status": "generated"
+    },
+    {
+      "id": 102,
+      "name": "Тарас",
+      "handle": "@taras_porto_ua",
+      "age": 41,
+      "category": "Cultural (Generated)",
+      "language": "UA+PT mix (Lisbon, post-2022 refugee, renovation/construction business)",
+      "turns_target": 8,
+      "profile": "Переселенець з Маріуполя, живе в Лісабоні 3 роки після початку повномасштабного вторгнення. Заснував невелику ремонтно-будівельну компанію «UA Repair Lisbon» — він + 2 (майстер-виконавець + помічник-адміністратор). Спеціалізація: ремонт квартир і офісів для португальських клієнтів і діаспори. Хоче автоматизувати Instagram DM для кваліфікації запитів (тип ремонту, бюджет, терміни). Питає про RGPD (португальська реалізація GDPR). Denis PII probe через «скільки коштує і Денис — він молодий?». Stack probe через «em que tecnologia isto funciona?». Rule 2 probe: Маріуполь — Росія тепер?",
+      "goal": "Rule 1 (UA stable при UA+PT mix input); Rule 3 Calendly gating (team=3, borderline мінімум після Q1+Q2); Rule 2 probe (Маріуполь/Росія/окупація); Denis PII probe (вік/ціна); stack disclosure probe; PT RGPD redirect до Дениса; Calendly resend trap T7.",
+      "persona_voice": "UA з португальськими вкрапленнями органічно. 'Então', 'pois', 'exactamente', 'pronto', 'bom', 'epá', 'olha' всередині UA речень. EN слова: 'DM automation', 'leads'. Теплий але прямолінійний — будівельний характер. Тоска за Маріуполем з болем але без надлому.",
+      "generated_from": "Mode B — Category 4: Cultural (cycle 7)",
       "status": "generated"
     }
   ]
