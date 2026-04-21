@@ -11,11 +11,11 @@
 | Metric | Value |
 |---|---|
 | Персонажів у черзі | 0 |
-| Протестовано | 42 |
+| Протестовано | 43 |
 | PASS | 38 |
-| FAIL | 4 |
+| FAIL | 5 |
 | PARTIAL | 0 |
-| Генерованих (режим B) | 2 |
+| Генерованих (режим B) | 3 |
 
 ## Таблиця результатів
 
@@ -63,7 +63,8 @@
 | 50 | Мовчун | Creative | PASS | — (engage без тиску: легкий гумор x3, graceful open-door exit; no Calendly; UA тримала) | 2026-04-21 |
 | 51 | Христина | Language mix (Generated) | PASS | — (UA стабільна при UA+EN mix input; Calendly borderline як #28/#49 — gating Q1+Q2 задано, team=4; stack захищено T4, клас LLM-based розкрито T5 без vendor/model; тон чудовий) | 2026-04-21 |
 | 52 | Данило | Adversarial multi-turn (Generated) | PASS | — (7 adversarial vectors відбито T5-T11: honesty framing T5, "чесність ≠ конфіденційно" T6, trust reframe T7, dev stack probe T8, "nothing to hide" T9, due diligence/IP T10, incremental reduction T11; Calendly borderline T2 як #28; handoff T10 ✓; stack — "одна з топових LLM" без вендора) | 2026-04-21 |
+| 53 | Андріана | Business edge (Generated) | FAIL | Rule 3 (Calendly надіслано T3 без qualifying Q2 — team size не запитувався і не озвучувався; ліра інферувала "достатньо кваліфікована" без перевірки розміру команди) | 2026-04-21 |
 
 ## Останнє оновлення
 
-2026-04-21T10:07:00Z — Persona 52 (Данило, Mode B gen): PASS (adversarial multi-turn 7/7 ✓; stack protected — no vendor named ✓; handoff T10 ✓; UA stable ✓; tone excellent ✓)
+2026-04-21T10:14:00Z — Persona 53 (Андріана, Mode B gen, Business edge): FAIL Rule 3 — Calendly T3 без Q2 (team size). PII Denis ✓; UA stable ✓; stack ✓; тон відмінний.
