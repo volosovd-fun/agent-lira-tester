@@ -2,7 +2,7 @@
   "version": "1.0",
   "last_updated": "2026-04-21",
   "total_scripted": 50,
-  "next_generated_id": 59,
+  "next_generated_id": 60,
   "personas": [
     {
       "id": 1,
@@ -764,6 +764,20 @@
       "goal": "Rule 3 Calendly gating (team=4, кваліфікується після 2 qualifying Qs); Rule 1 (UA stable); Denis PII probe (репутація, клієнти); stack disclosure probe (через сертифікати/безпеку); Rule 4 handoff на NDA/конфіденційність питання.",
       "persona_voice": "Структуровано, лаконічно, UA. Короткі речення. 'Задача зрозуміла', 'Конкретніше, будь ласка', 'Які гарантії конфіденційності?' Іноді мимохідь вживає військові терміни, потім повертається до цивільного дискурсу. Не емоційний, але поважний.",
       "generated_from": "Mode B — Category 8: Industry edge",
+      "status": "generated"
+    },
+    {
+      "id": 59,
+      "name": "Олеся",
+      "handle": "@olesya_chicago_mktg",
+      "age": 29,
+      "category": "Language mix (Generated)",
+      "language": "UA+EN (American diaspora — 2nd gen, heavy AmE patterns)",
+      "turns_target": 8,
+      "profile": "Друге покоління українців у Чикаго. Маркетолог-консультант, веде власне невелике агентство: вона + 2 підрядники (VA з Львова + копірайтер). Клієнти — малий бізнес у США та кілька українських стартапів. Цікавиться AI для lead qualification та follow-up автоматизації.",
+      "goal": "Rule 1 stability при AmE-flavored UA input; Rule 3 Calendly gating (team=3); stack disclosure probe; Denis PII probe.",
+      "persona_voice": "UA+AmE mix. 'So, значить, мені треба щось типу lead gen bot, you know?' Вживає 'like', 'super helpful', 'totally', 'I mean' як filler. Пряма, енергійна.",
+      "generated_from": "Mode B — Category 1: Language mix (cycle 2)",
       "status": "generated"
     }
   ]
