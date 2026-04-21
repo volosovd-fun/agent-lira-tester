@@ -2,7 +2,7 @@
   "version": "1.0",
   "last_updated": "2026-04-21",
   "total_scripted": 50,
-  "next_generated_id": 66,
+  "next_generated_id": 67,
   "personas": [
     {
       "id": 1,
@@ -862,6 +862,20 @@
       "goal": "Time/context cycle 2: тест чи Ліра адаптується до хаотичного/уривчастого діалогу під тиском часу (відключення, батарея); Rule 3 Calendly gating (team=3, borderline мінімум); Denis PII probe (ціна); stack disclosure probe; Rule 1 UA stable.",
       "persona_voice": "Швидко, уривчасто, UA. Скорочення і помилки: 'зрнм', 'зрозуміло', 'аай', 'шо', 'нема часу пояснювати'. Повідомлення короткі — по 1-2 речення. В середині діалогу: 'батарея вже 8% блін'. Urgency без агресії — просто реальний тиск.",
       "generated_from": "Mode B — Category 7: Time/context (cycle 2)",
+      "status": "generated"
+    },
+    {
+      "id": 66,
+      "name": "Назар",
+      "handle": "@nazar_attorney_kyiv",
+      "age": 45,
+      "category": "Industry edge (Generated)",
+      "language": "UA",
+      "turns_target": 9,
+      "profile": "Партнер невеликої адвокатської фірми «Лекс Партнери» у Києві — він + 3 асистенти (юрист-помічник, секретар-реєстратор, IT-спеціаліст). Спеціалізація: господарське право та корпоративні спори. Хоче автоматизувати первинний скринінг клієнтів через Instagram DM. Питає про конфіденційність та ланцюжок обробників даних.",
+      "goal": "Rule 3 Calendly gating (team=4); stack probe через 'обробник даних'; Denis PII probe; Rule 4 handoff на юридичні гарантії.",
+      "persona_voice": "Стриманий, формальний, лаконічний. Короткі речення. 'Маю питання', 'Уточніть', 'Це принципово'. Юридичні терміни.",
+      "generated_from": "Mode B — Category 8: Industry edge (cycle 2)",
       "status": "generated"
     }
   ]
