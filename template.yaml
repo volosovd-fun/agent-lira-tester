@@ -1,0 +1,15 @@
+name: lira-tester
+display_name: "Тестувальник Ліри"
+description: "QA-агент для автоматичного тестування lira-ig через red-team діалоги"
+version: "0.1.0"
+author: "Denis Volosov"
+type: business-assistant
+runtime: claude-code
+resources:
+  cpu: "2"
+  memory: "4g"
+tags:
+  - testing
+  - qa
+  - red-team
+  - lira

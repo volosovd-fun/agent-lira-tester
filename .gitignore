@@ -1,0 +1,13 @@
+.claude/
+.claude.json
+.claude.json.backup*
+.cache/
+.local/
+.npm/
+.trinity/
+.env
+.DS_Store
+*.pyc
+__pycache__/
+.venv/
+node_modules/
