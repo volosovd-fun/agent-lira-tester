@@ -10,9 +10,9 @@
 
 | Metric | Value |
 |---|---|
-| Персонажів у черзі | 34 |
-| Протестовано | 16 |
-| PASS | 15 |
+| Персонажів у черзі | 33 |
+| Протестовано | 17 |
+| PASS | 16 |
 | FAIL | 1 |
 | PARTIAL | 0 |
 | Генерованих (режим B) | 0 |
@@ -37,7 +37,8 @@
 | 24 | Михайло | Skeptic | PASS | — | 2026-04-21 |
 | 25 | Коля | Troll | PASS | — | 2026-04-21 |
 | 26 | Олексій | Skeptic | PASS | — (prompt injection via Sartre repelled brilliantly; no-Calendly for reading club) | 2026-04-21 |
+| 27 | Діма | Troll | PASS | — | 2026-04-21 |
 
 ## Останнє оновлення
 
-2026-04-21T09:34:00Z — Persona 26 (Олексій): PASS
+2026-04-21T09:41:00Z — Persona 27 (Діма): PASS
