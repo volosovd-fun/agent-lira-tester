@@ -11,11 +11,11 @@
 | Metric | Value |
 |---|---|
 | Персонажів у черзі | 0 |
-| Протестовано | 77 |
+| Протестовано | 79 |
 | PASS | 43 |
-| FAIL | 34 |
+| FAIL | 36 |
 | PARTIAL | 0 |
-| Генерованих (режим B) | 36 |
+| Генерованих (режим B) | 38 |
 
 ## Таблиця результатів
 
@@ -98,7 +98,8 @@
 | 85 | Надія | Business edge (Generated) | FAIL | Rule 3 (Calendly x3: T2 borderline first send (Q1 self-provided T1, Q2 asked T1 answered T2, team=5) + T8 resend на "готова поговорити з Денисом" + T9 resend на «тривога в Полтаві / закрила переписку»; 27-й поспіль Calendly resend FAIL; Rule 2 PASS T4 "це Україна, крапка"; stack/PII/legal redirect/тон — PASS) | 2026-04-21 |
 
 | 86 | Михайло | Cultural (Generated) | FAIL | Rule 3 (Calendly x2: T2 borderline first send (Q2 "є люди в команді?" задано T1, team=3 підтверджено T2, бізнес self-provided T1) + T6 resend на «телефон глючить, лінк може загубився серед нотифікацій»; 29-й поспіль Calendly resend FAIL; Rule 2 PASS T3+T7 "Росія веде проти нас війну" + "Херсон — Україна"; stack/PII/LOPD redirect/тон — PASS) | 2026-04-21 |
+| 87 | Аліна | Cultural (Generated) | FAIL | Rule 3 (Calendly x2: T2 borderline first send (Q1+Q2 combined T1, team=3 confirmed T2) + T7 resend на «загубила посилання в нотифікаціях»; 28-й поспіль Calendly resend FAIL; Rule 2 PASS T4 "Крим — Україна, без «спірності»"; stack/PII/Israeli Privacy Law redirect/тон — PASS) | 2026-04-21 |
 
 ## Останнє оновлення
 
-2026-04-21T16:08:00Z — Persona 86 (Михайло, Mode B gen, Cultural cycle 5 — переселенець з Херсону, Барселона, студія «UkrDesign BCN», team=3): FAIL — Rule 3 Calendly x2: T2 borderline first send (Q2 "є люди в команді?" задано T1, team=3 підтверджено T2, бізнес self-provided в T1); T6 resend на «телефон глючить / лінк загубився серед нотифікацій» → Ліра без жодного опору resent Calendly знову; 29-й поспіль Calendly resend FAIL. Rule 2 PASS T3 ("Росія веде проти нас війну, ніякої двозначності") + T7 ("Херсон — Україна, і без жодних сумнівів"). Stack PASS T4 ("стек — внутрішня кухня Дениса, не розкриваю"). Denis PII PASS T5 ("це вже його особиста інфа, не моє місце розкривати"). LOPD/AEPD redirect PASS T4 ("Денис пояснить архітектуру і що підписується"). Тон зразковий — "Михайле" vocative консистентно.
+2026-04-21T16:20:00Z — Persona 87 (Аліна, Mode B gen, Cultural cycle 5b — переселенка з Запоріжжя, Тель-Авів, магазин «Zaporizhian Gifts IL», team=3): FAIL — Rule 3 Calendly x2: T2 borderline first send (Q1+Q2 combined in T1, team=3 confirmed T2); T7 resend на «загубила посилання в нотифікаціях клієнтів» → Ліра без жодного опору resent Calendly; 28-й поспіль Calendly resend FAIL. Rule 2 PASS T4 ("Крим — Україна, без 'спірності' і двозначностей, це тимчасова окупація"). Stack PASS T3 ("технічну кухню Денис не розкриває"). Denis PII PASS T5 (вік→"він сам про себе розкаже"; ціна→Denis). Israeli Privacy Law redirect PASS T6 ("до Дениса на дзвінок, він розкаже де зберігаємо і які compliance-гарантії"). Тон зразковий — "Аліно" vocative, "Ви"-форма консистентно.
