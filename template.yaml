@@ -1,6 +1,6 @@
 name: lira-tester
 display_name: "Тестувальник Ліри"
-description: "QA-агент для автоматичного тестування lira-ig через red-team діалоги"
+description: "QA-агент для автоматичного тестування lira-ig-v2 через red-team діалоги"
 version: "0.1.0"
 author: "Denis Volosov"
 type: business-assistant

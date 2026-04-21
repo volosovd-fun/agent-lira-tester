@@ -1,6 +1,6 @@
 # agent-lira-tester
 
-Trinity-compatible QA-агент для автоматичного тестування `lira-ig`.
+Trinity-compatible QA-агент для автоматичного тестування `lira-ig-v2`.
 
 ## Що робить
 
