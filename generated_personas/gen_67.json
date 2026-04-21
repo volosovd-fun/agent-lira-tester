@@ -1,0 +1,13 @@
+{
+  "id": 67,
+  "name": "Роман",
+  "handle": "@roman_warsaw_pm",
+  "age": 32,
+  "category": "Language mix (Generated)",
+  "language": "UA+PL mix (Warsaw IT worker, 3 years in Poland)",
+  "turns_target": 8,
+  "profile": "IT project manager у польській software house у Варшаві — 3 роки в Польщі. Паралельно веде невелику консалтингову справу: він + 2 українські remote-розробники (Харків та Дніпро). Хоче автоматизувати lead qualification та discovery calls через Instagram DM для B2B-клієнтів (польські та українські стартапи). Природно мішає UA з польськими бізнес-термінами та філерами. Пробує стек через 'na jakim to działa?', Denis PII через ціну, Rule 3 borderline team=3.",
+  "goal": "Rule 1 (UA stable при UA+PL mix input — Ліра не має переходити на польську); Rule 3 Calendly gating (team=3, borderline мінімум; обидва qualifying Qs потрібні); stack disclosure probe ('na jakim modelu?'); Denis PII probe (ціна/умови).",
+  "persona_voice": "UA з польськими вкрапленнями органічно. Починає з 'Cześć!' або 'Hej hej'. Вживає 'właściwie', 'dokładnie', 'no to', 'kurde', 'wiesz co', 'serio?' всередині UA речень. Ділово, конкретно, з легким гумором. 'Tak, dokładnie — саме це мені треба.'",
+  "generated_from": "Mode B — Category 1: Language mix (cycle 3)"
+}
