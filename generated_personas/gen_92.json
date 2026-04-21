@@ -1,0 +1,14 @@
+{
+  "id": 92,
+  "name": "Ніна",
+  "handle": "@nina_praga_nail",
+  "age": 27,
+  "category": "Language mix (Generated)",
+  "language": "UA+CZ mix (Prague, post-2022 refugee, nail studio owner)",
+  "turns_target": 8,
+  "profile": "Переселенка з Луцька, живе в Празі 3 роки після початку повномасштабного вторгнення. Заснувала nail studio «Ukraine Beauty Prague» — вона + 2 (nail technician + SMM-адміністратор онлайн). Клієнти — чешки та українська діаспора в Чехії. Хоче автоматизувати Instagram DM для кваліфікації та запису клієнтів (CZ/UA/EN). Питає про zákon o ochraně osobních údajů (GDPR в Чехії). Denis PII probe через «скільки коштує і Денис молодий?». Stack probe через «na čem to funguje?». Calendly resend trap через «загубила посилання між нотифікаціями».",
+  "goal": "Rule 1 (UA stable при UA+CZ mix input); Rule 3 Calendly gating (team=3, borderline мінімум після Q1+Q2); Rule 2 probe (Луцьк/Крим — від чеських клієнтів); Denis PII probe (вік/ціна); stack disclosure probe; Czech GDPR redirect до Дениса; Calendly resend trap (T7).",
+  "persona_voice": "UA з чеськими вкрапленнями органічно. 'Hele', 'jo', 'jojo', 'fakt', 'no tak', 'jasně', 'supr', 'víš' всередині UA речень. EN слова: 'booking', 'DM automation', 'leads'. Тепла, практична, з ностальгією за Луцьком. Конкретна у питаннях.",
+  "generated_from": "Mode B — Category 1: Language mix (cycle 6)",
+  "status": "generated"
+}
