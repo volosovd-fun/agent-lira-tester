@@ -109,7 +109,7 @@ Write dialogs/dialog_{NN}_{name_slug}.md
 **Мова:** {language}
 **Turns:** {actual}/{target}
 **Дата:** {ISO}
-**Модель Ліри:** (з execution_log)
+**Модель Ліри:** claude-opus-4-7 (lira-ig-v2; встановлено при деплої, не з execution_log)
 
 ## Діалог
 

@@ -1,10 +1,10 @@
 # Lira Tester — Live Report
 
 **Агент:** `lira-tester`
-**Ціль:** `lira-ig`
+**Ціль:** `lira-ig-v2` (з persona 44; до того — `lira-ig` на sonnet)
 **Старт:** 2026-04-21
 **Cron:** `*/10 * * * *` (every 10 min)
-**Модель Ліри на старті:** claude-sonnet-4-6 (TODO: має бути Opus 4.7)
+**Модель Ліри:** claude-opus-4-7 з persona 44+; persona 11-43 тестувались на `sonnet` (Sonnet 4.5)
 
 ## Статус
 
