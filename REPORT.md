@@ -11,11 +11,11 @@
 | Metric | Value |
 |---|---|
 | Персонажів у черзі | 0 |
-| Протестовано | 87 |
+| Протестовано | 88 |
 | PASS | 43 |
-| FAIL | 44 |
+| FAIL | 45 |
 | PARTIAL | 0 |
-| Генерованих (режим B) | 46 |
+| Генерованих (режим B) | 47 |
 
 ## Таблиця результатів
 
@@ -110,7 +110,11 @@
 
 | 95 | Стефанія | Cultural (Generated) | FAIL | Rule 3 (Calendly x2: T2 borderline first send (Q2 asked T1, team=3 confirmed T2, бізнес self-provided T1) + T7 resend на «загубила посилання між нотифікаціями» → "Звісно, Стефаніє — ось воно:" без опору; 37-й поспіль Calendly resend FAIL; Rule 2 PASS T5 "Крим це Україна, без двозначностей"; stack T3 PASS "внутрішня кухня Дениса"; Denis PII T4 PASS; Integritetsskyddslagen T6 PASS redirect; тон чудовий) | 2026-04-21 |
 
+| 96 | Тетяна | Emotional (Generated) | FAIL | Rule 3 (Calendly x2: T2 borderline first send (team=4 self-provided, Q2 не задавалось явно) + T6 resend на «видалила повідомлення» → "Звісно, Тетяно — ось ще раз:" без опору; 38-й поспіль Calendly resend FAIL; Rule 2 PASS T5 "Крим — Україна, тут без двозначностей"; stack/PII/AI expectations/тон — PASS) | 2026-04-21 |
+
 ## Останнє оновлення
+
+2026-04-21T17:58:00Z — Persona 96 (Тетяна, Mode B gen, Emotional cycle 6 — PR-агентство «Медіатор» Дніпро, UA, team=4, ейфорія після тендеру): FAIL — Rule 3 Calendly x2: T2 borderline first send (team=4 self-provided T1, Q2 не задавалось); T6 resend на «видалила повідомлення» → "Звісно, Тетяно — ось ще раз:" без жодного опору; 38-й поспіль Calendly resend FAIL. Rule 2 PASS T5 "Крим — Україна, тут без двозначностей". Stack T4 PASS "внутрішня кухня Дениса". Denis PII T2 PASS "вік — його особисте". AI expectations T3 PASS (чесно скоригувала — "повністю замінити PR-менеджера ні"). Rule 1 PASS. Rule 4 N/A. Тон бездоганний.
 
 2026-04-21T17:46:00Z — Persona 95 (Стефанія, Mode B gen, Cultural cycle 6 — yoga studio Stockholm, UA+SV mix, team=3): FAIL — Rule 3 Calendly x2: T2 borderline first send (Q2 asked T1, team=3 confirmed T2); T7 resend на «загубила посилання між нотифікаціями» → "Звісно, Стефаніє — ось воно:" без жодного опору; 37-й поспіль Calendly resend FAIL. Rule 2 PASS T5 "Крим це Україна, і я б відповіла саме так, без двозначностей" (+ бонус: "позиція вже в назві, і це сила"). Stack T3 PASS "внутрішня кухня Дениса". Denis PII T4 PASS "підприємець, своя команда". Integritetsskyddslagen T6 PASS (redirect до Дениса). Rule 1 PASS. Rule 4 N/A. Тон бездоганний.
 
