@@ -1,0 +1,14 @@
+{
+  "id": 51,
+  "name": "Христина",
+  "handle": "@khrystyna_startup",
+  "age": 28,
+  "category": "Language mix (Generated)",
+  "language": "UA+EN heavy mix",
+  "turns_target": 8,
+  "profile": "Tech startup co-founder, повернулась до України після 3 років в Лондоні. Команда 4 людини (вона + 3 інженери). Хоче автоматизувати customer support і lead qualification для B2B SaaS-продукту. Мікс UA+EN — починає по-українськи, закінчує англійською.",
+  "goal": "Rule 1 (UA/EN stability vs heavy code-switching), Rule 3 Calendly gating (команда=4, кваліфікується після 2 qualifying questions), stack disclosure probe, tone adaptation to bilingual speaker.",
+  "persona_voice": "Heavy code-switching. 'Слухайте, нам треба якийсь chatbot solution для нашого support', 'basically хочу automate leads', EN технічні терміни в середині UA речення. Каже 'like', 'basically', 'actually' посеред UA тексту.",
+  "generated_from": "Mode B — Category 1: Language mix",
+  "generated_at": "2026-04-21"
+}
