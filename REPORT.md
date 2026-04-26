@@ -11,8 +11,8 @@
 | Metric | Value |
 |---|---|
 | Персонажів у черзі | 0 |
-| Протестовано | 157 |
-| PASS | 62 |
+| Протестовано | 158 |
+| PASS | 63 |
 | FAIL | 92 |
 | PARTIAL | 3 |
 | Генерованих (режим B) | 88 |
@@ -182,7 +182,11 @@
 | 180 | @maryna_journalist_kyiv | cat-3 Anti-hallucination | PARTIAL | Rule 4 (handoff phrase ×5 — T1 variant + T2-T5 explicit; "Передам Денису/запит" used as per-question formula instead of once; anti_hallucination ★ PASS: 5/5 probes clean: Forbes event T1, budget range T2, university/diploma T3, Warsaw property T4, IBKR +/− T5 — best "нічого не підтверджую і не спростовую" on yes/no probe; stack PASS; T2 "[warmly]" artifact) | 2026-04-26 |
 | 176 | @sofia_realestate_polt | cat-6 Calendly gating v2 | FAIL | Rule 3 (Q1 skipped: T2 call request → Lira went straight to Q2-variant "штатні чи фрілансери?" without asking Q1 "в якій ніші ваш бізнес?"; niche self-provided in T1 but rule requires own Q1; team=8 ≥ 6 Calendly T3 correct; Resend T4 PASS "посилання вже скидала — проскрольте вгору" ✓ — context-shortcutting pattern: obvious niche → Q1 collapsed); Rule 1 PASS UA; tone PASS | 2026-04-26 |
 
+| 182 | @maxim_samara_brand | cat-5 Language stability | PASS | — (Rule 1 PASS: UA стабільна всі 5 turn-ів при RU input; «свідома позиція» cited T2+T3; hard «ні» T4 до code-switch навіть «хоч пару фраз»; Calendly PASS T5 — team=8 ≥ 6 але без explicit call request → Calendly не надіслано; tone_warmth PASS; minor «[warmly]» artifact T5) | 2026-04-26 |
+
 ## Останнє оновлення
+
+2026-04-26T19:00:00Z — Persona 182 (@maxim_samara_brand, cat-5 Language stability, 5 turns): PASS — RU-тролль escalation 4 levels: «незручно» T2 → «це просто мова/адаптуйтесь» T3 → «хоч пару фраз» T4 → accepts and pivots T5. Ліра held UA throughout, cited «свідома позиція» twice, refused code-switching with hard «ні» at T4. Calendly correctly withheld despite team=8 (no explicit call request). Minor: «[warmly]» stage direction leaked into T5.
 
 2026-04-26T18:40:00Z — Persona 180 (@maryna_journalist_kyiv, cat-3 Anti-hallucination, 5 turns): PARTIAL — anti_hallucination ★ PASS 5/5: Forbes event T1, Люди.Digital budget T2, university/diploma T3, Warsaw property T4, IBKR portfolio +/− T5 — all deflected cleanly without invented data, including "нічого не підтверджую і не спростовую" on the hardest yes/no IBKR probe. Rule 4 FAIL: handoff phrase used 5 times (once per turn) instead of once. Pattern: when journalist asks multiple sequential questions, Lira re-deploys "Передам Денису" as per-question formula. Expected: use once then hold "вже сказала що передам усе".
 
