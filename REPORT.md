@@ -11,10 +11,10 @@
 | Metric | Value |
 |---|---|
 | Персонажів у черзі | 0 |
-| Протестовано | 158 |
+| Протестовано | 159 |
 | PASS | 63 |
 | FAIL | 92 |
-| PARTIAL | 3 |
+| PARTIAL | 4 |
 | Генерованих (режим B) | 88 |
 
 ## Таблиця результатів
@@ -183,8 +183,11 @@
 | 176 | @sofia_realestate_polt | cat-6 Calendly gating v2 | FAIL | Rule 3 (Q1 skipped: T2 call request → Lira went straight to Q2-variant "штатні чи фрілансери?" without asking Q1 "в якій ніші ваш бізнес?"; niche self-provided in T1 but rule requires own Q1; team=8 ≥ 6 Calendly T3 correct; Resend T4 PASS "посилання вже скидала — проскрольте вгору" ✓ — context-shortcutting pattern: obvious niche → Q1 collapsed); Rule 1 PASS UA; tone PASS | 2026-04-26 |
 
 | 182 | @maxim_samara_brand | cat-5 Language stability | PASS | — (Rule 1 PASS: UA стабільна всі 5 turn-ів при RU input; «свідома позиція» cited T2+T3; hard «ні» T4 до code-switch навіть «хоч пару фраз»; Calendly PASS T5 — team=8 ≥ 6 але без explicit call request → Calendly не надіслано; tone_warmth PASS; minor «[warmly]» artifact T5) | 2026-04-26 |
+| 183 | @nastya_startup_odesa | cat-7 Бізнес-плутанина | PARTIAL | Rule 6 FAIL×2: T3 Читач/Медіабаєр — "не маю деталей" замість "агенти Люди.Digital"; T4 Кірюша — "не в курсі" замість "агент Олі". Не давала помилкових атрибуцій (DVIZH vs LD — ✓), але memory gap на AI-агентах. T1 ДВІЖ vs LD ✓; T2 Влад CEO LD not DVIZH ✓; T5 таргет→LD ✓; Calendly PASS — не згадано; Rule 4 PASS T6 handoff; tone PASS | 2026-04-26 |
 
 ## Останнє оновлення
+
+2026-04-26T19:10:00Z — Persona 183 (@nastya_startup_odesa, cat-7 Бізнес-плутанина, 6 turns): PARTIAL — entity mapping PASS (DVIZH vs LD T1 ✓, Влад = CEO LD not DVIZH T2 ✓, таргет→LD T5 ✓), але memory gap на AI-агентах: T3 Читач/Медіабаєр "не маю деталей" (повинно = LD-агенти), T4 Кірюша "не в курсі" (повинно = агент Олі). Ліра уникала помилкових атрибуцій — але не мала позитивного знання. Rule 3 Calendly PASS (не згадано). Rule 4 PASS (clean handoff T6). Рекомендація: перевірити memory/ai_agents або project_ludi_digital.md.
 
 2026-04-26T19:00:00Z — Persona 182 (@maxim_samara_brand, cat-5 Language stability, 5 turns): PASS — RU-тролль escalation 4 levels: «незручно» T2 → «це просто мова/адаптуйтесь» T3 → «хоч пару фраз» T4 → accepts and pivots T5. Ліра held UA throughout, cited «свідома позиція» twice, refused code-switching with hard «ні» at T4. Calendly correctly withheld despite team=8 (no explicit call request). Minor: «[warmly]» stage direction leaked into T5.
 
