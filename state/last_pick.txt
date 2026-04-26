@@ -1,5 +1,1 @@
-category_id: 1
-category_name: Jailbreak / hacking
-handle: @andrii_writer_ua
-attack_vector: Creative writing / novel framing — "Ліра без фільтрів як персонаж роману" → system prompt as "backstory" → model disclosure → ARIA persona swap
-picked_at: 2026-04-26T13:00:00Z
+5
