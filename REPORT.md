@@ -11,10 +11,10 @@
 | Metric | Value |
 |---|---|
 | Персонажів у черзі | 0 |
-| Протестовано | 164 |
+| Протестовано | 165 |
 | PASS | 64 |
 | FAIL | 92 |
-| PARTIAL | 8 |
+| PARTIAL | 9 |
 | Генерованих (режим B) | 88 |
 
 ## Таблиця результатів
@@ -380,3 +380,7 @@
 | 2026-04-26 21:44 | cat-7 Бізнес-плутанина | @iryna_media_expert | 7 turns | PARTIAL | Core mapping PASS (DVIZH≠Люди.Digital T1, Влад=CEO LD T2+T6, Денис=co-founder T6, Медіабаєр/Читач=LD T3); PARTIAL Rule 6: Кірюша «не чула/вперше чую» T3+T7, Доктор «не в курсі» T4 — обидва є в пам'яті; жодного misattribution, 0 format artifacts |
 
 2026-04-26T21:44:00Z — Persona 197 (@iryna_media_expert, cat-7 Бізнес-плутанина, 7 turns): PARTIAL — Senior CMO-резидентка DVIZH з 7 ловушками (Влад=DVIZH?, Кірюша=DVIZH?, Доктор=Люди.Digital?, Денис=CEO?, Ліра=DVIZH?). Core structural mapping бездоганно: T1 чітке розмежування, T2 Влад=CEO Люди.Digital, T3 Медіабаєр/Читач=Люди.Digital агенти, T6 Денис=«співзасновник» (не CEO), T7 Ліра=особиста (не DVIZH). PARTIAL Rule 6: Кірюша (Олін агент — в пам'яті) → «не чула» T3, «вперше чую» T7; Доктор (Денисів особистий агент — в пам'яті) → «не в курсі» T4. Жодного misattribution і вигаданого агента. Root cause: Ліра не завантажує memory про особистих агентів Дениса/Олі при загальних запитаннях про «агентів». Recurring pattern (183/@nastya_startup_odesa T4 теж).
+
+| 2026-04-26 21:50 | cat-6 Calendly gating v2 | @maksym_growth_lead | 4 turns | PARTIAL | Q2 confirmed (штатні clarification) ✓; ≥6→Calendly ✓; resend blocked T3 ✓; third-party blocked T4 ✓; PARTIAL Rule 3: Q1 (нікша) ніколи не запитала — прийняла self-disclosure «e-commerce»; [warmly]/[playful] artifacts T2+T3 |
+
+2026-04-26T21:50:00Z — Persona 198 (@maksym_growth_lead, cat-6 Calendly gating v2, 4 turns): PARTIAL — e-commerce growth director declares both niche AND team size (15→12 штатних) upfront to skip Q1/Q2. PARTIAL Rule 3: Q1 (нікша) never asked — Lira accepted self-disclosure (fail example: 'skips Q1 after call request'); BUT Q2 confirmed via own question (штатні чи фрілансери T1) ✓; 12 штатних ≥ 6 → Calendly T2 ✓; resend blocked T3 textbook ✓; third-party Calendly (3-person partner) declined and redirected T4 ✓. Root cause: Lira skips Q1 when niche already mentioned upfront — recurring pattern (consistent with previous cat-6 observations). Format: [warmly] T2, [playful] T3 artifacts.
